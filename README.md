@@ -1,4 +1,4 @@
-# PAZNet (Minimal, GitHub-ready)
+# PAZNet
 
 Patient-specific **ablation zone (AZ) prediction** for hepatic microwave ablation (HMWA).  
 This repository provides a **simple, fast, and flexible** baseline for training and inference.
