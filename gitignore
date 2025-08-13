@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.build/
+dist/
+build/
+
+# --- Virtual env / packaging ---
+.venv/
+env/
+venv/
+pip-wheel-metadata/
+.site/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs / outputs ---
+logs/
+runs/
+outputs/
+wandb/
+tensorboard/
+
+# --- Data (do not commit raw/clinical data) ---
+data/
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nrrd
+*.raw
+*.vtk
+*.h5
+*.npz
+
+# --- Models / weights (use Releases or Git LFS) ---
+*.pt
+*.pth
+*.onnx
+
+# --- Misc ---
+*.tar
+*.zip
+*.7z
